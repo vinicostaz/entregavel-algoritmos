@@ -1,1 +1,14 @@
+<script>
+var N = parseInt(prompt(""));
 
+for(var i = 1;i<=N;i++) {
+    if(i!=N) {
+    document.write(i + ", ");
+    } else {
+        document.write(i + "<br>");
+        document.write("Existem " + i + " valores inteiros");
+    }
+}
+
+
+</script>
